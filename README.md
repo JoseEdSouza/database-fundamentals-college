@@ -6,8 +6,7 @@ Welcome to my GitHub repository showcasing my college works in the field of Data
 
 - [Purpose](#📚%20Purpose)
 - [Project Status](#🚧%20Project%20Status)
-- [Problems](#💡%20Problems)
-- [Final Project](#🏁%20Final%20Project)
+- [Folders](#📂%20Folders)
 - [License](#📜%20License)
 - [Contributions](#👥%20Contributions)
 
