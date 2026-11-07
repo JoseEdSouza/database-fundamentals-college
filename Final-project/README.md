@@ -133,6 +133,15 @@ This section defines user roles and their associated access rights, ensuring sec
 - **cliente**: Role for customers with limited access to manage their addresses and payment methods.
 - **entregador**: Role for delivery personnel with access to delivery-related data.
 
+## Project Deliveries 📦
+
+Besides the final schema above, this folder also holds the intermediate deliveries of the project, developed in 2023 (2023.1, from May to July, with some later adjustments until October):
+
+- [Previous-diagrams](Previous-diagrams): first version of the ER diagram (`diagram_ER_ifood_v1`), before the revised one used above.
+- [Sql](Sql): SQL scripts split by table (create, insert and select), plus sequences, views, roles and the consolidated `create_insert_select.sql`.
+- [Delivery-03](Delivery-03): the third delivery, with the consolidated SQL script and the relational diagrams exported as PDF.
+- [Delivery-04](Delivery-04): the fourth delivery, with the final `ifood.sql`, `views.sql`, `roles.sql` and a Python interface (Jupyter notebooks run with Voilà) for the administrator, client, deliveryman and restaurant roles. See its [readme](Delivery-04/readme.md) to run it.
+
 ## Contributing 🤝
 
 Contributions to this project are highly encouraged! To contribute, follow these steps:

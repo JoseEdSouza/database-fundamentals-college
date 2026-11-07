@@ -1,0 +1,188 @@
+INSERT INTO
+    restaurant (
+        name,
+        email,
+        adr_street,
+        adr_num,
+        adr_uf,
+        adr_compl,
+        adr_bairro,
+        adr_city,
+        adr_ref_point,
+        cnpj,
+        telefone,
+        raio_de_entrega,
+        prop_cpf,
+        cat_id
+    )
+VALUES
+    -- Restaurant 'Sabor Divino'
+    (
+        'Sabor Divino',
+        'contato@sabordivino.com',
+        'Rua dos Sabores',
+        '123',
+        'SP',
+        'Sala 1',
+        'Centro',
+        'São Paulo',
+        'Perto da Praça',
+        '12345678900001',
+        '(11) 1234-5678',
+        5,
+        '12345678901',
+        1
+    ),
+    -- Restaurant 'Gastronomia Criativa'
+    (
+        'Gastronomia Criativa',
+        'contato@gastronomiacriativa.com',
+        'Avenida dos Sabores',
+        '456',
+        'RJ',
+        'Andar 2',
+        'Copacabana',
+        'Rio de Janeiro',
+        'Perto da Praia',
+        '98765432100001',
+        '(21) 9876-5432',
+        10,
+        '98765432101',
+        2
+    ),
+    -- Restaurant 'Delícias do Mar'
+    (
+        'Delícias do Mar',
+        'contato@deliciasdomar.com',
+        'Rua dos Pescadores',
+        '789',
+        'BA',
+        'Loja 3',
+        'Farol da Barra',
+        'Salvador',
+        'Perto do Farol',
+        '65432198700001',
+        '(71) 6543-2198',
+        8,
+        '65432198701',
+        3
+    ),
+    -- Restaurant 'Sabores Exóticos'
+    (
+        'Sabores Exóticos',
+        'contato@saboresexoticos.com',
+        'Rua das Especiarias',
+        '987',
+        'SP',
+        'Andar 5',
+        'Vila Madalena',
+        'São Paulo',
+        'Perto do Metrô',
+        '98765432100002',
+        '(11) 9876-5432',
+        6,
+        '98765432102',
+        4
+    ),
+    -- Restaurant 'Cantinho da Serra'
+    (
+        'Cantinho da Serra',
+        'contato@cantinhodaserra.com',
+        'Rua das Montanhas',
+        '654',
+        'MG',
+        'Casa 2',
+        'Centro',
+        'Belo Horizonte',
+        'Perto da Praça',
+        '12345678900002',
+        '(31) 1234-5678',
+        12,
+        '12345678902',
+        5
+    ),
+    -- Restaurant 'Sabores do Oriente'
+    (
+        'Sabores do Oriente',
+        'contato@saboresdooriente.com',
+        'Avenida das Especiarias',
+        '321',
+        'RJ',
+        'Loja 7',
+        'Centro',
+        'Rio de Janeiro',
+        'Perto do Mercado',
+        '98765432100003',
+        '(21) 9876-5432',
+        10,
+        '98765432103',
+        6
+    ),
+    -- Restaurant 'Fogão Gaúcho'
+    (
+        'Fogão Gaúcho',
+        'contato@fogaogauchorestaurante.com',
+        'Rua dos Churrascos',
+        '159',
+        'RS',
+        'Sala 4',
+        'Centro',
+        'Porto Alegre',
+        'Perto da Praça',
+        '65432198700003',
+        '(51) 6543-2198',
+        15,
+        '65432198703',
+        7
+    ),
+    -- Restaurant 'Pizza Mágica'
+    (
+        'Pizza Mágica',
+        'contato@pizzamagica.com',
+        'Rua das Pizzas',
+        '753',
+        'SP',
+        'Andar 3',
+        'Moema',
+        'São Paulo',
+        'Perto do Parque',
+        '98765432100004',
+        '(11) 9876-5432',
+        8,
+        '98765432104',
+        8
+    ),
+    -- Restaurant 'Delícias Vegetarianas'
+    (
+        'Delícias Vegetarianas',
+        'contato@deliciasvegetarianas.com',
+        'Rua das Hortaliças',
+        '852',
+        'RJ',
+        'Loja 6',
+        'Botafogo',
+        'Rio de Janeiro',
+        'Perto do Jardim',
+        '65432198700004',
+        '(21) 6543-2198',
+        10,
+        '65432198704',
+        9
+    ),
+    -- Restaurant 'Sabor da Roça'
+    (
+        'Sabor da Roça',
+        'contato@sabordaroca.com',
+        'Rua da Fazenda',
+        '357',
+        'MG',
+        'Casa 1',
+        'Centro',
+        'Belo Horizonte',
+        'Perto do Parque',
+        '12345678900003',
+        '(31) 1234-5678',
+        12,
+        '12345678903',
+        5
+    );
